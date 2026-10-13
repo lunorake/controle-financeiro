@@ -26,4 +26,4 @@ jobs:
       - name: Build APK with EAS
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas build -p android --profile preview --non-interactive --auto-submit=false
+        run: eas build -p android --profile preview --non-interactive
